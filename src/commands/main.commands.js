@@ -12,3 +12,8 @@ export const settings = function ( ctx, next )
 {
     ctx.reply("You have entered the settings command.");
 }
+
+export const test = function ( ctx, next )
+{
+    ctx.reply("Hello World! 👋 ");
+}

@@ -1,7 +1,7 @@
 // import dependencies 
 import Telegraf from "telegraf";
 import config from "./config/main.config.js";
-import handler from "./commands/index.commands.js";
+import handler from "./handlers/index.handlers.js";
 
 // setup constructor object
 const bot = new Telegraf(config.botKey);
